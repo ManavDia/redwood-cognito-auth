@@ -6,10 +6,10 @@ This is a simple demo repo that showcases cognito auth for Redwood Canary 4.0
 
 You need the following env variables setup to use this repository:
 
-COGNITO_REGION
-COGNITO_POOL_ID
-COGNITO_APP_CLIENT_ID
-DATABASE_URL
+* COGNITO_REGION
+* COGNITO_POOL_ID
+* COGNITO_APP_CLIENT_ID
+* DATABASE_URL
 
 Additionally you need a user account in your Cognito pool, setup with a password, not in the "PASSWORD_RESET_REQUIRED" state, because currently there's no functionality to allow the user to type in the new passwword (Easy enough to implement however).
 
